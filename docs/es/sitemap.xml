@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ziruiwong.github.io/es/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://ziruiwong.github.io/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ziruiwong.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://ziruiwong.github.io/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ziruiwong.github.io/es/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://ziruiwong.github.io/de/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ziruiwong.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://ziruiwong.github.io/es/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ziruiwong.github.io/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://ziruiwong.github.io/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ziruiwong.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://ziruiwong.github.io/es/tags/"
+                />
+  </url>
+  
+</urlset>
