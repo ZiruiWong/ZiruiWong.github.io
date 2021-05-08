@@ -152,6 +152,8 @@ Theme Features - Ch1neiii
             
 
             
+            <a class="navbar-item" href="https://ziruiwong.github.io/index.xml"><i class="fas fa-rss"></i></a>
+            
             
         </div>
     </nav>
@@ -229,6 +231,7 @@ Theme Features - Ch1neiii
     
 </div>
 
+
 <div class="container markdown top-pad">
     <p>Here are some helpful tips for setting up this theme.</p>
 <h2 id="configuration">Configuration</h2>
@@ -244,7 +247,7 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
 [params]
     themeStyle                   = <span style="color:#4070a0">&#34;auto&#34;</span>                  <span style="color:#60a0b0;font-style:italic"># Choose &#34;light&#34; or &#34;dark&#34; or &#34;auto&#34;</span>
     favicon                      = <span style="color:#4070a0">&#34;/img/fav.ico&#34;</span>          <span style="color:#60a0b0;font-style:italic"># Path to favicon file</span>
-    showRSSButton                = <span style="color:#007020;font-weight:bold">false</span>                   <span style="color:#60a0b0;font-style:italic"># Show rss button in navigation</span>
+    showRSSButton                = <span style="color:#007020;font-weight:bold">true</span>                  <span style="color:#60a0b0;font-style:italic"># Show rss button in navigation</span>
     fadeIn                       = <span style="color:#007020;font-weight:bold">true</span>                    <span style="color:#60a0b0;font-style:italic"># Turn on/off the fade-in effect</span>
     fadeInIndex                  = <span style="color:#007020;font-weight:bold">false</span>                   <span style="color:#60a0b0;font-style:italic"># Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off</span>
     dateFormat                   = <span style="color:#4070a0">&#34;Jan 2, 2006&#34;</span>
@@ -265,6 +268,12 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
         timeFormat               = <span style="color:#4070a0">&#34;en-US&#34;</span>                 <span style="color:#60a0b0;font-style:italic"># Language specific format to use</span>
     [params.projects]
         useTwoColumns            = <span style="color:#007020;font-weight:bold">false</span>                   <span style="color:#60a0b0;font-style:italic"># Use a layout with two columns instead of three</span>
+    [params.utteranc]
+        enable = <span style="color:#007020;font-weight:bold">true</span>
+        repo = <span style="color:#4070a0">&#34;ZiruiWong/ZiruiWong.github.io&#34;</span>
+        issueTerm = <span style="color:#4070a0">&#34;title&#34;</span>
+        theme = <span style="color:#4070a0">&#34;github-light&#34;</span>
+
 
     <span style="color:#60a0b0;font-style:italic"># Share buttons on blog post pages</span>
     [params.share]
@@ -296,6 +305,7 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
         icon  = <span style="color:#4070a0">&#34;mastodon&#34;</span> <span style="color:#60a0b0;font-style:italic"># icon name without the &#39;fa-&#39;</span>
         icon_pack = <span style="color:#4070a0">&#34;fab&#34;</span>
         html_attributes = <span style="color:#4070a0">&#34;rel=\&#34;me\&#34;&#34;</span> <span style="color:#60a0b0;font-style:italic"># Add rel attribute for Mastodon profile link verification</span>
+
 
 
 <span style="color:#60a0b0;font-style:italic"># If you don&#39;t want to use the default menu, you can define one by yourself</span>
@@ -372,6 +382,17 @@ defaultMarkdownHandler = <span style="color:#4070a0">&#34;goldmark&#34;</span>
 unsafe = <span style="color:#007020;font-weight:bold">true</span>
 </code></pre></div>
 </div>
+
+
+    <script src="https://utteranc.es/client.js"
+    repo="ZiruiWong/ZiruiWong.github.io"
+    issue-term="title" 
+    theme="github-light"
+    crossorigin="anonymous" 
+    async>
+    </script>
+    
+    
 
 
 

@@ -7,7 +7,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
 [params]
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
     favicon                      = "/img/fav.ico"          # Path to favicon file
-    showRSSButton                = false                   # Show rss button in navigation
+    showRSSButton                = true                  # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
@@ -28,6 +28,12 @@ DefaultContentLanguage           = "en"                    # Default language fo
         timeFormat               = "en-US"                 # Language specific format to use
     [params.projects]
         useTwoColumns            = false                   # Use a layout with two columns instead of three
+    [params.utteranc]
+        enable = true
+        repo = "ZiruiWong/ZiruiWong.github.io"
+        issueTerm = "title"
+        theme = "github-light"
+
 
     # Share buttons on blog post pages
     [params.share]
@@ -59,6 +65,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         icon  = "mastodon" # icon name without the 'fa-'
         icon_pack = "fab"
         html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
+
 
 
 # If you don't want to use the default menu, you can define one by yourself
