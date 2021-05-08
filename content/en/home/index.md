@@ -1,6 +1,6 @@
 ---
-title: "Hi, I'm Introduction"
+title: "Hi, I'm Ch1neiii"
 headless: true
 ---
 
-I'm a theme for Hugo
+Welcome to my channel
